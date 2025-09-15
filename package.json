@@ -3,11 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm run copy-web-component && ng serve --port 7000",
-    "build": "npm run copy-web-component && ng build",
+    "start": "ng serve",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "copy-web-component": "node loadScript.js"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
