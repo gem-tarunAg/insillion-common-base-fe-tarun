@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Build web components with correct base-href
-        run: npm run build:prod
+        run: npm run build:prod:gh
 
       - name: Debug - List build output
         run: |
