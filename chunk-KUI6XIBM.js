@@ -1,0 +1,1 @@
+import{la as e,ra as n,sa as a,ua as p}from"./chunk-FTVTGPPF.js";var c=class o{static \u0275fac=function(t){return new(t||o)};static \u0275cmp=e({type:o,selectors:[["app-total-count"]],decls:2,vars:0,template:function(t,s){t&1&&(n(0,"p"),p(1,"total-count works!"),a())},encapsulation:2})};export{c as TotalCountComponent};

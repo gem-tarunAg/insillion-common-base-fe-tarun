@@ -1,0 +1,1 @@
+import{la as e,ra as n,sa as p,ua as r}from"./chunk-FTVTGPPF.js";var s=class t{static \u0275fac=function(o){return new(o||t)};static \u0275cmp=e({type:t,selectors:[["app-group-products"]],decls:2,vars:0,template:function(o,u){o&1&&(n(0,"p"),r(1,"group-products works!"),p())},encapsulation:2})};export{s as GroupProductsComponent};

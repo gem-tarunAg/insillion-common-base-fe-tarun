@@ -1,0 +1,1 @@
+import{la as o,ra as n,sa as p,ua as s}from"./chunk-FTVTGPPF.js";var r=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-reports"]],decls:2,vars:0,template:function(e,i){e&1&&(n(0,"p"),s(1,"reports works!"),p())},encapsulation:2})};export{r as ReportsComponent};
