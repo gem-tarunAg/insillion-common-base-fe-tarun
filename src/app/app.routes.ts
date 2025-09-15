@@ -2,16 +2,44 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
-  { 
-    path: 'dashboard', 
-    loadComponent: () => import('./components/dashboard/dashboard.component').then(m => m.DashboardComponent) 
+  {
+    path: 'dashboard',
+    loadComponent: () =>
+      import('./components/dashboard/dashboard.component').then(
+        (m) => m.DashboardComponent
+      ),
   },
   {
-    path:'dashboard/search',
-    loadComponent: ()=> import('./components/search/search.component').then(m=>m.SearchComponent)
+    path: 'dashboard/search',
+    loadComponent: () =>
+      import('./components/search/search.component').then(
+        (m) => m.SearchComponent
+      ),
   },
   {
-    path:'total-count',
-    loadComponent: () => import('./components/total-count/total-count.component').then(c => c.TotalCountComponent)
-  }
+    path: 'total-count',
+    loadComponent: () =>
+      import('./components/total-count/total-count.component').then(
+        (c) => c.TotalCountComponent
+      ),
+  },
+  {
+    path: 'reports',
+    loadComponent: () =>
+      import('./components/reports/reports.component').then(
+        (c) => c.ReportsComponent
+      ),
+  },
+  {
+    path: 'group-products',
+    loadComponent: () =>
+      import('./components/group-products/group-products.component').then(
+        (c) => c.GroupProductsComponent
+      ),
+  },
+  {
+    path: '**',
+    redirectTo: 'dashboard',
+    pathMatch: 'full',
+  },
 ];
